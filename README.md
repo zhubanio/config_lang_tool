@@ -10,7 +10,7 @@
 ## Установка
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/username/config_lang_tool.git
+   git clone https://github.com/zhubanio/config_lang_tool.git
    cd config_lang_tool
 
 2. Убедитесь, что у вас установлен Python 3.6 или выше.
