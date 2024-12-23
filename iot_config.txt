@@ -1,0 +1,18 @@
+device_id <- @"12345ABC";
+location <- @"Living Room";
+sensors <- [
+    temperature => [
+        unit => @"Celsius",
+        range => <<0, 50>>
+    ],
+    humidity => [
+        unit => @"Percentage",
+        range => <<0, 100>>
+    ]
+];
+
+iot_device <- [
+    id => |device_id|,
+    location => |location|,
+    sensors => |sensors|
+];

@@ -1,0 +1,12 @@
+server_name <- @"Localhost";
+port <- 8080;
+routes <- [
+    root => @"index.html",
+    api => @"api/v1"
+];
+
+web_server <- [
+    name => |server_name|,
+    port => |port|,
+    routes => |routes|
+];

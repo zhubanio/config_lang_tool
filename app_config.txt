@@ -1,0 +1,16 @@
+app_name <- @"MyApp";
+version <- @"1.0.0";
+modules <- [
+    auth => [
+        enabled => true,
+        providers => <<@"Google", @"Facebook">>
+    ],
+    analytics => [
+        enabled => false
+    ]
+];
+app_config <- [
+    name => |app_name|,
+    version => |version|,
+    features => |modules|
+];
