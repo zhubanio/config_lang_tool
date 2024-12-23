@@ -19,27 +19,27 @@
 ## Использование
 1. Поместите ваши конфигурационные файлы в папку configs/ или используйте существующие:
    
-    ├── configs/
+configs/
    
-│   ├── weather_config.txt
+weather_config.txt
 
-│   ├── task_config.txt
+task_config.txt
 
-│   ├── web_config.txt
+web_config.txt
 
-│   ├── task_test_config.txt
+task_test_config.txt
 
-│   ├── database_config.txt
+database_config.txt
 
-│   ├── ecommerce_config.txt
+ecommerce_config.txt
 
-│   ├── iot_config.txt
+iot_config.txt
 
-│   ├── network_config.txt
+network_config.txt
 
-│   ├── app_config.txt
+app_config.txt
 
-│   └── user_profiles.txt
+user_profiles.txt
 
 3. Запустите инструмент, указав путь к файлу:
 
@@ -47,7 +47,7 @@
 
 4. Чтобы вывести содержание текстового файла:
 
-       more config/weather_config.txt
+       more config\weather_config.txt
 
 ## Тестирование
 Запустите тесты:
