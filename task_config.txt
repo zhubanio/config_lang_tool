@@ -1,0 +1,6 @@
+task_list <- <<@"Buy groceries", @"Clean the house", @"Finish project">>;
+
+tasks <- [
+    description => @"My Tasks",
+    items => |task_list|
+];

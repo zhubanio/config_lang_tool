@@ -1,0 +1,13 @@
+currency <- @"USD";
+payment_methods <- <<@"PayPal", @"Stripe", @"Credit Card">>;
+shipping_options <- [
+    standard => @"5-7 business days",
+    express => @"1-2 business days",
+    international => @"7-14 business days"
+];
+
+ecommerce_settings <- [
+    default_currency => |currency|,
+    payments => |payment_methods|,
+    shipping => |shipping_options|
+];

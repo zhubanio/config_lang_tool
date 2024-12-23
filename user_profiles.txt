@@ -1,0 +1,12 @@
+admin_profile <- [
+    username => @"admin",
+    permissions => <<@"read", @"write", @"delete">>
+];
+guest_profile <- [
+    username => @"guest",
+    permissions => <<@"read">>
+];
+user_profiles <- [
+    admin => |admin_profile|,
+    guest => |guest_profile|
+];
