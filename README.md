@@ -43,7 +43,7 @@
 
 3. Запустите инструмент, указав путь к файлу:
 
-       python config_tool.py configs/weather_config.txt
+       python config_tool.py config/weather_config.txt
 
 4. Чтобы вывести содержание текстового файла:
 
