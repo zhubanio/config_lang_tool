@@ -6,7 +6,7 @@ from config_tool import ConfigParser
 class TestConfigParser(unittest.TestCase):
     def setUp(self):
         # Путь к папке с тестовыми конфигурациями
-        self.configs_path = "configs/"
+        self.configs_path = "config/"
         self.test_files = [
             "weather_config.txt",
             "task_config.txt",
