@@ -1,0 +1,9 @@
+weather_api <- @"OpenWeatherMap";
+default_city <- @"Moscow";
+temperature_unit <- @"Celsius";
+
+config <- [
+    api_name => |weather_api|,
+    city => |default_city|,
+    units => |temperature_unit|
+];
